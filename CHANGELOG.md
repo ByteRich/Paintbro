@@ -2,6 +2,16 @@
 
 Binary downloads are available in [Releases](https://github.com/ByteRich/RichPaint/releases).
 
+## 1.1.0 — 29 October 2026
+
+### Settings and keyboard shortcuts
+
+- Save preferences automatically to `settings.json` and keyboard shortcuts separately to `keybinding.json`.
+- Portable copies store both files in `paintbro-saved` beside `paintbro.exe`, so preferences can move with the application.
+- Installed copies store both files in `%USERPROFILE%/Paintbro`.
+- Migrate existing localStorage preferences and bindings from the older combined settings file automatically. An existing `keybinding.json` takes precedence.
+- Save files atomically and flush pending changes before closing the application.
+
 ## 1.0 — 29 October 2026
 
 Initial release of ByteRich Paintbro (version 1.0.0).

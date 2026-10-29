@@ -26,7 +26,13 @@ Microsoft Edge WebView2 Runtime is a component Paintbro uses to display its inte
 
 It doesn't require a Paintbro installation. Extract the full ZIP and run `paintbro.exe`; WebView2 must already be present.
 
-Preferences, recent-file information, and other local app data still live in your Windows user profile. They don't travel alongside the executable on a USB drive. You can export preferences and keybindings separately from their settings screens.
+Portable settings are saved to `paintbro-saved/settings.json` beside `paintbro.exe`, with keyboard shortcuts in `paintbro-saved/keybinding.json`. Keep the included `paintbro-portable` marker beside the executable, and move the settings folder with the application to carry your preferences, shortcuts, palettes, layouts, and presets. The folder must be writable. Recent-file information and other WebView2 data still live in your Windows user profile.
+
+## Where are settings saved?
+
+Installed copies save settings to `%USERPROFILE%/Paintbro/settings.json`, for example `C:/Users/YourName/Paintbro/settings.json`. Portable copies use `<executable directory>/paintbro-saved/settings.json`. Keyboard shortcuts are stored separately in `keybinding.json` in the same directory as `settings.json`. Changes save automatically. Existing desktop preferences are migrated from the previous local storage when the settings file is first created. Bindings in an older combined settings file are moved into `keybinding.json`; an existing separate profile takes precedence.
+
+You can also export preferences and keybindings separately from their settings screens.
 
 ## How does saving work?
 

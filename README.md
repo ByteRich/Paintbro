@@ -32,7 +32,7 @@ Download a Windows package from the **Assets** section in [Releases](https://git
 
 Choose the architecture listed for your PC: **x64** for most Intel/AMD Windows PCs, or **ARM64** for Windows on ARM, when offered in the release. Check that release's notes for the available packages.
 
-The portable package skips installation; settings and recent-file information still live in your Windows user profile.
+The portable package saves settings to `paintbro-saved/settings.json` beside `paintbro.exe`. Keep the included `paintbro-portable` marker beside the executable and move the settings folder with the app. Installed copies save settings to `%USERPROFILE%/Paintbro/settings.json`. Keyboard shortcuts are saved separately to `keybinding.json` in the same directory as `settings.json`. Recent-file information still lives in your Windows user profile.
 
 ## File formats and current limits
 
