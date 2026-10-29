@@ -23,7 +23,6 @@ Binary downloads are available in [Releases](https://github.com/ByteRich/RichPai
 - Keep advanced color pickers inside the visible window, with scrolling when necessary.
 - Disable elastic overscroll to prevent the entire application from shifting during laptop scrolling gestures.
 
-
 ## 1.1.0 — 29 October 2026
 
 ### Settings and keyboard shortcuts

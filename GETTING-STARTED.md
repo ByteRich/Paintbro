@@ -16,7 +16,7 @@ On the welcome screen, choose **New document** (`Ctrl+N`) or **Open…** (`Ctrl+
 
 You can also paste an image from the clipboard with `Ctrl+V` while no document is open. Paintbro creates a new document with the image's original dimensions and transparency.
 
-After installation, right-click a supported image in Explorer and choose **Open with ? Paintbro**. If it is not listed directly, look under **Choose another app**. Portable users can browse to the extracted `paintbro.exe`.
+After installation, right-click a supported image in Explorer and choose **Open with → Paintbro**. If it is not listed directly, look under **Choose another app**. Portable users can browse to the extracted `paintbro.exe`.
 
 To open images from the command line, run this from the directory containing `paintbro.exe`:
 
