@@ -18,11 +18,18 @@ These are the default Windows shortcuts. Editor actions apply when you're workin
 | Open Settings | `Ctrl+,` |
 | Copy / cut / paste | `Ctrl+C` / `Ctrl+X` / `Ctrl+V` |
 | Duplicate | `Ctrl+D` |
+| Select the entire canvas | `Ctrl+A` |
 | Open the tool wheel | `Tab` over the canvas |
 | Center the canvas view | `Home` |
 | Toggle the pixel grid | `Ctrl+G` |
 
 Copy, cut, paste, and duplicate follow what you're editing: selected animation frames, a pixel selection, or selected layers. Click the area you want to work with first.
+
+With no document open, `Ctrl+V` opens a clipboard image as a new document. `Ctrl+A` creates a full-canvas rectangle without rounded corners or feathering, regardless of the selection tool's current settings. In text fields, `Ctrl+A` selects the text instead.
+
+## Screen color picking
+
+Open a color picker and click **Eyedropper** once to activate it. Move the pointer to a color anywhere on the screen, including outside the app, then click to pick it. Press `Escape` to cancel. Holding the mouse button is unnecessary, and sampling retains the current color's opacity.
 
 ## Move around the canvas
 

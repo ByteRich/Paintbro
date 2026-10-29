@@ -14,11 +14,27 @@ On the welcome screen, choose **New document** (`Ctrl+N`) or **Open…** (`Ctrl+
 
 ![Paintbro's welcome screen with New document and Open buttons, plus community, feedback, and news cards along the bottom.](assets/paintbro-welcome.png)
 
+You can also paste an image from the clipboard with `Ctrl+V` while no document is open. Paintbro creates a new document with the image's original dimensions and transparency.
+
+After installation, right-click a supported image in Explorer and choose **Open with ? Paintbro**. If it is not listed directly, look under **Choose another app**. Portable users can browse to the extracted `paintbro.exe`.
+
+To open images from the command line, run this from the directory containing `paintbro.exe`:
+
+```powershell
+.\paintbro.exe "C:\Pictures\my drawing.png" "C:\Pictures\animation.gif"
+```
+
+Each image opens in its own document tab in the launched window. Relative paths resolve against the working directory; duplicate paths open once. Invalid paths report an error while valid images continue opening. Each external launch starts its own application instance.
+
 ## 3. Paint and edit
 
 Choose a brush in the left toolbar, select a color in the Palette panel, and drag across the canvas. Use the Brushes panel to adjust size and opacity. Press `Ctrl+Z` to undo an edit.
 
 Add layers in the Layers panel to keep image elements separate. Use the Text and Shapes tools to create editable objects on their own layers.
+
+To sample a color, open a color picker and click **Eyedropper** once. Move anywhere on the screen, including outside Paintbro, then click to pick the color or press `Escape` to cancel. You do not need to hold the mouse button. Sampling preserves the current color's opacity.
+
+Press `Ctrl+A` to select the entire canvas with a plain rectangle, without rounded corners or feathering. Text fields retain their normal select-all behavior.
 
 ## 4. Navigate the workspace
 

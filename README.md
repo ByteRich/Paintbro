@@ -21,6 +21,8 @@ Paintbro combines a clean, customizable interface with command search and config
 
 See the [feature overview](FEATURES.md) for details. Open command search with `Ctrl+P` or `Ctrl+Shift+P`, the tool wheel with `Tab`, and Settings with `Ctrl+,`. Supported command bindings can be changed in **Keybindings**.
 
+**New in 1.2.1:** Open images through Windows **Open with** or command-line paths, pick colors anywhere on the screen, paste clipboard images into new documents, and select the full canvas with `Ctrl+A`. Compact menus, color picker positioning, and laptop overscroll are also improved. [Read the release notes](CHANGELOG.md).
+
 ## Download and installation
 
 Download a Windows package from the **Assets** section in [Releases](https://github.com/ByteRich/RichPaint/releases).
@@ -29,6 +31,8 @@ Download a Windows package from the **Assets** section in [Releases](https://git
 | --- | --- |
 | Windows installer | Run the installer, then launch Paintbro. It can install the required Microsoft Edge WebView2 Runtime if it's missing. |
 | Portable ZIP | Extract the whole archive, then run `paintbro.exe`. WebView2 must already be installed. |
+
+Installed copies register Paintbro under Windows **Open with** for PNG, WebP, JPG/JPEG, GIF, and BMP while preserving your existing default image applications. For portable copies, use **Open with ? Choose another app** and browse to the extracted `paintbro.exe`. [More ways to open images](GETTING-STARTED.md#2-create-or-open-a-document).
 
 Choose the architecture listed for your PC: **x64** for most Intel/AMD Windows PCs, or **ARM64** for Windows on ARM, when offered in the release. Check that release's notes for the available packages.
 

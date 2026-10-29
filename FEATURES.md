@@ -8,6 +8,8 @@ Brush controls include size, opacity, falloff, aspect ratio, and angle, with sel
 
 The palette tracks recent colors and supports favorites. Mirror painting reflects strokes across the horizontal axis, vertical axis, or both, with adjustable axis positions.
 
+The color picker includes a native Windows eyedropper for sampling anywhere on the screen, including outside Paintbro. Click to activate, click to pick, or press `Escape` to cancel. Sampled colors retain the current opacity, and advanced picker popups stay within the window.
+
 ## Layers and masks
 
 Layers support groups, opacity, visibility, and locking. Multi-selection allows bulk edits and moving several layers together.
@@ -17,6 +19,8 @@ Layer masks control visibility without erasing the underlying pixels: paint blac
 ## Selections, geometry, and transforms
 
 Pixel selections support rectangle, ellipse, freehand, polygon, and magic-wand modes. Transform tools provide layer translation, scaling, and rotation; canvas cropping changes the document bounds.
+
+Press `Ctrl+A` to select the entire canvas as a rectangle without rounded corners or feathering, regardless of the current selection tool settings.
 
 Text and parametric shapes remain editable on their own layers. Geometry controls include fills, strokes, shape parameters, lines, curves, and arcs. Rulers, a pixel grid, and drawing guides support precise placement, with snapping and generators for parallel, radial, and grid guide sets.
 
@@ -35,6 +39,10 @@ The animation track below the canvas supports frame creation and duplication, pe
 The workspace supports movable and resizable dock panels, configurable toolbar groups, a radial tool wheel accessed with `Tab`, and named layout presets. Settings are searchable; preferences and supported command bindings can be imported or exported as profiles.
 
 Multiple documents open in tabs. Command search and contextual input hints provide access to editing operations without requiring every shortcut to be memorized. [Keyboard and workspace reference →](KEYBOARD-AND-WORKSPACE.md)
+
+Open PNG, WebP, JPG/JPEG, GIF, and BMP images from command-line paths or Windows **Open with**. Installer and Microsoft Store packages register the supported file types while preserving existing default image applications. Paste a clipboard image into the empty workspace to create a new document with its original dimensions and transparency.
+
+Compact titlebar menus switch instantly without overlapping flyouts. Elastic overscroll is disabled to prevent the entire app from shifting during laptop scrolling gestures.
 
 ## Export formats
 

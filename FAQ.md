@@ -14,6 +14,14 @@ Open [Releases](https://github.com/ByteRich/RichPaint/releases) and expand the *
 
 GitHub also adds “Source code” archives automatically. Those contain this information repository; they aren't the Paintbro application.
 
+## Can I open images from Windows Explorer or the command line?
+
+Yes. Installer and Microsoft Store packages register Paintbro under **Open with** for `.png`, `.webp`, `.jpg`, `.jpeg`, `.gif`, and `.bmp`. Existing default image applications stay unchanged. Windows decides which apps appear directly in the submenu; look under **Choose another app** if Paintbro is not shown there.
+
+Portable copies do not register themselves automatically. Use **Choose another app** to browse to the extracted `paintbro.exe`, or run the executable with one or more quoted image paths. Each external launch starts its own application instance. [Command-line example](GETTING-STARTED.md#2-create-or-open-a-document).
+
+With no document open, you can also press `Ctrl+V` to open an image from the clipboard as a new document.
+
 ## Which platforms are available?
 
 The packages documented here are for Windows. Use the release's architecture label to pick the right package: x64 for most Intel/AMD PCs, or ARM64 for Windows on ARM when that package is offered. macOS and Linux downloads aren't part of this release.
