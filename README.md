@@ -1,27 +1,57 @@
-# ByteRich Paintbro
+<h1 align="center">ByteRich Paintbro</h1>
 
-A free painting and raster image editor for Windows, with layers, masks, editable text and shapes, and frame-by-frame animation.
+<p align="center">
+  <strong>Paint, edit, and animate on Windows.</strong><br>
+  A free image editor with layers, editable objects, and a workspace you can make your own.
+</p>
 
-Paintbro combines a clean, customizable interface with command search and configurable keyboard shortcuts. ByteRich's focus is an accessible editing workflow: clear controls for beginners, precise tools, and efficient keyboard navigation.
+<p align="center">
+  <a href="https://github.com/ByteRich/RichPaint/releases/latest"><strong>Download Paintbro</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="GETTING-STARTED.md">Getting started</a>
+  &nbsp;&middot;&nbsp;
+  <a href="FEATURES.md">Features</a>
+  &nbsp;&middot;&nbsp;
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
 
-**[Download the latest release](https://github.com/ByteRich/RichPaint/releases/latest)** · [Features](FEATURES.md) · [Getting started](GETTING-STARTED.md) · [Changelog](CHANGELOG.md)
+<p align="center">
+  <a href="assets/paintbro-editor.webp"><img src="assets/paintbro-editor.webp" width="956" alt="Paintbro with a blue vase, green leaves, and a lemon on the canvas, beside brush controls, a color palette, and the Layers panel."></a>
+  <br>
+  <sub>A complete painting workspace, with your tools and colors close at hand.</sub>
+</p>
 
-![ByteRich Paintbro editing a blue ByteRich logo, with selection tools, shape settings, a palette, and layers visible.](assets/paintbro-editor.png)
+## One workspace, many ways to create
 
-## Features
+**Paint and retouch.** Shape your brushes, work with color palettes, erase, fill, clone, and smudge. Preview adjustments and filters before applying them.
 
-- **Painting tools:** configurable brush size, opacity, falloff, aspect ratio, and angle; brush patterns and presets; eraser, flood fill, clone stamp, smudge, lighten, and darken.
-- **Layers and masks:** layer groups, opacity, visibility, locking, multi-selection, and masks for editing visibility without erasing pixels.
-- **Selections and transforms:** rectangle, ellipse, freehand, polygon, and magic-wand selections; layer translation, scaling, and rotation; canvas cropping.
-- **Text and geometry:** editable text and parametric shapes with fill and stroke controls, plus lines, curves, and arcs.
-- **Precision tools:** rulers, pixel grid, guide snapping, generated parallel/radial/grid guides, and mirror painting with adjustable axes.
-- **Adjustments and filters:** brightness/contrast, exposure, hue/saturation, levels, color balance, and filter previews before applying changes.
-- **Animation:** frame creation and duplication, per-frame timing, looping, playback preview, and animated GIF export.
-- **Workspace customization:** tabbed documents, dockable panels, layout presets, configurable toolbar groups, a radial tool wheel, and preference/keybinding profile import and export.
+**Compose with layers.** Combine layers and masks with editable text, shapes, lines, and curves. Select, crop, move, scale, and rotate with precision.
 
-See the [feature overview](FEATURES.md) for details. Open command search with `Ctrl+P` or `Ctrl+Shift+P`, the tool wheel with `Tab`, and Settings with `Ctrl+,`. Supported command bindings can be changed in **Keybindings**.
+**Animate frame by frame.** Draw and duplicate frames, adjust their timing, preview playback, and export the result as an animated GIF.
 
-**New in 1.2.1:** Open images through Windows **Open with** or command-line paths, pick colors anywhere on the screen, paste clipboard images into new documents, and select the full canvas with `Ctrl+A`. Compact menus, color picker positioning, and laptop overscroll are also improved. [Read the release notes](CHANGELOG.md).
+<p align="center">
+  <a href="assets/paintbro-animation.webp"><img src="assets/paintbro-animation.webp" width="49%" alt="Pixel-art animation in Paintbro, with three frames on the timeline and the radial tool wheel open."></a>
+  <a href="assets/paintbro-photo-editing.webp"><img src="assets/paintbro-photo-editing.webp" width="49%" alt="A train crossing a stone viaduct in Paintbro, with shape controls, color collections, and layers visible."></a>
+  <br>
+  <sub>Pixel art and animation on the left; photo editing and composition on the right. Click a screenshot for a closer look.</sub>
+</p>
+
+Rulers, a pixel grid, drawing guides, snapping, and mirror painting help with precise work. Open the radial tool wheel with <kbd>Tab</kbd>, find commands with <kbd>Ctrl+P</kbd>, and arrange dock panels around the way you work. [Explore all features](FEATURES.md).
+
+<details>
+<summary><strong>Make the workspace your own</strong></summary>
+
+Search preferences, customize supported keyboard shortcuts, reorder toolbar groups, and save named workspace layouts. Settings and keybindings can be imported and exported, and portable copies keep preferences beside the application.
+
+<p align="center">
+  <a href="assets/paintbro-settings.webp"><img src="assets/paintbro-settings.webp" width="900" alt="Paintbro settings showing searchable categories and controls for rulers, pixel grids, and snapping."></a>
+</p>
+
+[Keyboard and workspace reference](KEYBOARD-AND-WORKSPACE.md)
+
+</details>
+
+**New in 1.2.1:** Windows **Open with** and command-line image opening, screen-wide color picking, clipboard images as new documents, and <kbd>Ctrl+A</kbd> for full-canvas selection. Compact menus, color picker positioning, and laptop overscroll are also improved. [Read the release notes](CHANGELOG.md).
 
 ## Download and installation
 

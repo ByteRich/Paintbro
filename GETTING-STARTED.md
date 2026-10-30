@@ -12,7 +12,7 @@ Paintbro uses Microsoft Edge WebView2 Runtime. The installer can set it up if ne
 
 On the welcome screen, choose **New document** (`Ctrl+N`) or **Open…** (`Ctrl+O`). You can also drop an image into the app.
 
-![Paintbro's welcome screen with New document and Open buttons, plus community, feedback, and news cards along the bottom.](assets/paintbro-welcome.png)
+![Paintbro's welcome screen with New document and Open buttons, plus community, feedback, and news cards along the bottom.](assets/paintbro-welcome.webp)
 
 You can also paste an image from the clipboard with `Ctrl+V` while no document is open. Paintbro creates a new document with the image's original dimensions and transparency.
 

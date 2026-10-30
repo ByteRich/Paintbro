@@ -24,7 +24,7 @@ Press `Ctrl+A` to select the entire canvas as a rectangle without rounded corner
 
 Text and parametric shapes remain editable on their own layers. Geometry controls include fills, strokes, shape parameters, lines, curves, and arcs. Rulers, a pixel grid, and drawing guides support precise placement, with snapping and generators for parallel, radial, and grid guide sets.
 
-![Paintbro's editor showing a ByteRich logo alongside selection choices, editable shape controls, and the Layers panel.](assets/paintbro-editor.png)
+![A train crossing a stone viaduct open in Paintbro, with editable shape controls, a palette, and the Layers panel.](assets/paintbro-photo-editing.webp)
 
 ## Adjustments and filters
 
@@ -34,9 +34,13 @@ Color adjustments include brightness/contrast, exposure, hue/saturation, levels,
 
 The animation track below the canvas supports frame creation and duplication, per-frame duration, loop settings, and playback preview. Export the animation as GIF or save an individual frame as a static image.
 
+![Paintbro editing a pixel-art character, with three animation frames and the radial tool wheel open.](assets/paintbro-animation.webp)
+
 ## Workspace and keyboard controls
 
 The workspace supports movable and resizable dock panels, configurable toolbar groups, a radial tool wheel accessed with `Tab`, and named layout presets. Settings are searchable; preferences and supported command bindings can be imported or exported as profiles.
+
+![Paintbro settings with searchable preferences for rulers, grids, and snapping.](assets/paintbro-settings.webp)
 
 Multiple documents open in tabs. Command search and contextual input hints provide access to editing operations without requiring every shortcut to be memorized. [Keyboard and workspace reference →](KEYBOARD-AND-WORKSPACE.md)
 
