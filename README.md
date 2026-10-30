@@ -1,4 +1,4 @@
-<h1 align="center">ByteRich Paintbro</h1>
+<h1 align="center">Paintbro</h1>
 
 <p align="center">
   <strong>Paint, edit, and animate on Windows.</strong><br>
